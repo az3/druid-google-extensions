@@ -8,7 +8,7 @@ cd /opt/druid # or whatever your installation directory is
 cd extensions
 mkdir druid-google-extensions
 cd druid-google-extensions
-wget 0.10.1.jar
+wget https://github.com/az3/druid-google-extensions/releases/download/0.10.1/druid-google-extensions.jar
 ```
 
 The folders should look like this;
@@ -37,6 +37,6 @@ drwxr-xr-x. 2 druid druid     88 Sep 18 11:53 postgresql-metadata-storage
 drwxrwxr-x. 2 druid druid     96 Sep 18 15:18 druid-google-extensions
 /opt/druid/extensions $ ll druid-google-extensions/
 ...
--rw-r--r--. 1 druid druid 3625438 Sep 18 15:18 druid-google-extensions.jar
+-rw-r--r--. 1 druid druid 3625143 Sep 18 15:18 druid-google-extensions.jar
 /opt/druid/extensions $ 
 ```
